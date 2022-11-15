@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cocona" Version="2.0.3" />
+      <PackageReference Include="Libplanet.Net" Version="0.44.1" />
+      <PackageReference Include="Serilog.Sinks.Console" Version="4.1.1-dev-00896" />
+    </ItemGroup>
+
+</Project>
